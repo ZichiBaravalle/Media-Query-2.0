@@ -1,0 +1,43 @@
+h1{
+    text-align: center;
+    color: white;
+    padding-top: 30px;
+}
+header{
+    background-color: rgb(26, 25, 112);
+    margin-bottom: 20px;
+}
+div{
+    margin-left: 50px;
+    padding-bottom: 30px;
+}
+@media screen and (max-width: 1024px){
+    header{
+        background-color: rgb(65, 104, 225);
+        margin-bottom: 20px;
+    }
+    div{
+        width: 100%;
+        text-align: center;
+        margin-left: 0;
+        padding-bottom: 30px;
+    }
+}
+@media screen and (max-width: 580px){
+    header{
+        background-color: rgb(180, 224, 232);
+        margin-bottom: 20px;
+    }
+    div{
+        width: 100%;
+        text-align: center;
+        margin-left: 0;
+        padding-bottom: 30px;
+    }
+    html{
+        font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    }
+    a{
+        list-style-type: disc;
+    }
+}

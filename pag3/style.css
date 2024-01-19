@@ -1,0 +1,69 @@
+h1{
+    text-align: center;
+    color: white;
+    padding-top: 30px;
+    margin-top: 0;
+}
+header{
+    background-color: rgb(128, 255, 214);
+    padding-bottom: 20px;
+    width: 100%;
+}
+body{
+    margin: 0;
+}
+main{
+    background-color: red;
+    width: 100%;
+}
+img{
+    border: white 20px solid;
+    margin: 20px;
+}
+.larghe{
+    width: 450px;
+    height: auto;
+}
+div{
+    text-align: center;
+    width: 100%;
+}
+@media screen and (max-width: 580px){
+    header{
+        background-color: rgb(128, 255, 214);
+        margin-bottom: 20px;
+        padding-bottom: 20px;
+    }
+    .larghe{
+        width: 75px;
+        height: auto;
+    }
+    #alta{
+        height: 100px;
+        width: auto;
+    }
+    body{
+        margin: 0;
+        width: 100%;
+    }
+}
+@media screen and (max-width: 1024px) and (min-width: 581px){
+    header{
+        background-color: rgb(128, 255, 214);
+        margin-bottom: 20px;
+        padding-bottom: 20px;
+    }
+    .larghe{
+        width: 200px;
+        height: auto;
+    }
+    #alta{
+        height: 250px;
+        width: auto;
+    }
+    img{
+        border: red 10px solid;
+        margin: 15px;
+    }
+}
+/*fatto*/
